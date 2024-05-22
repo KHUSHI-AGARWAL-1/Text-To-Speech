@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background: url("https://images.unsplash.com/photo-1541580285154-24168a1bd2f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8");
+    background-size: cover;
+}
+
+.head {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.one {
+    margin: 20px auto;
+    text-align: center;
+    
+}
+.voice{
+    padding: 5px;
+}
+.min {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.opt {
+    text-align: center;
+}
+
+.opt span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+}
+
+select, input[type="range"] {
+    width: 150px;
+    
+}
+.butt{
+    
+    margin-left: 570px;
+    
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+#start{
+    background-color:  #007bff;
+    
+}
+#pause{
+    background-color: #ffc107;
+}
+#resume{
+    background-color: #28a745;
+}
+#cancel{
+    background-color: #dc3545;
+}
+
